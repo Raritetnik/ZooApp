@@ -1,9 +1,6 @@
 const menu = document.getElementById('menu');
 const header = document.getElementById('header');
 
-
-
-
 // Import of Menu and Header
 fetch('menu.html')
 .then(response => response.text())
