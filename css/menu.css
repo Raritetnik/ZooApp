@@ -38,7 +38,7 @@ a:hover{text-decoration: none;}
 ul li{list-style-type: none;}
 img{vertical-align: top;}
 
-h1,h2, h3, h4, h5, h6{font-style: inherit; font-weight: 500;}
+h1,h2, h3, h4, h5, h6{font-style: inherit; font-weight: 600;}
 
 
 
@@ -67,8 +67,8 @@ h1,h2, h3, h4, h5, h6{font-style: inherit; font-weight: 500;}
 }
 
 .menu_icon {
-    width: 30px;
-    height: 30px;
+    width: 35px;
+    height: 35px;
     transform: translateY(-10%);
 }
 
