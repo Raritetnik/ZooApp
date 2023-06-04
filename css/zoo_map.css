@@ -1,0 +1,58 @@
+h1, h2, h3, h4, h5 {font-weight: bold;}
+
+.zoo_map img {
+    width: 100%;
+    
+}
+
+.map-info {
+    display: flex;
+
+    
+    margin: .5rem 2rem 0 2rem;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+}
+
+.map-info>img {
+    margin-bottom: 1rem;
+}
+
+.map-info h1 {
+    margin-bottom: .5rem;
+}
+
+.pdf>a {
+    margin: 0 0 .2rem 0;
+
+    display: flex;
+
+    justify-content: start;
+    align-items: center;
+
+    color: black;
+    text-decoration: underline;
+}
+
+.pdf>a img {
+    width: 6%;
+}
+
+.pdf>img {
+    width: 60%;
+}
+
+.green-line {
+    width: 100%;
+    margin-top: .5rem;
+    padding: .3rem 3rem 0 3rem;
+
+}
+
+.map-info>p {
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 16px;
+    letter-spacing: 1px;
+}
