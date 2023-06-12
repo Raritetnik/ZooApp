@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/animals.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header id="header"></header>
+
+    <div class="animals">
+
+        <img src="images/png/Animals-and-Plants 2.png" alt="">
+
+        <div class="animals-list">
+
+            <div class="colum-list">
+
+                <button id="lion-btn">
+                    <div class="info">
+
+                        <div class="animal-icon">
+                            <img src="images/png/lions.png" alt="">
+                            <p>Lions</p>
+                        </div>
+                        <img src="images/png/lion-back.png" alt="">
+                    </div>
+                </button>
+
+                <button>
+                    <div class="info">
+
+                        <div class="animal-icon">
+                            <img src="images/png/monkeys.png" alt="">
+                            <p style="letter-spacing: -2px;">Monkeys</p>
+                        </div>
+                        <img src="images/png/monkey-back.png" alt="">
+                    </div>
+                </button>
+
+
+                <button>
+                    <div class="info">
+
+                        <div class="animal-icon">
+                            <img src="images/png/bears.png" alt="">
+                            <p>Bears</p>
+                        </div>
+                        <img src="images/png/bear-back.png" alt="">
+                    </div>
+                </button>
+
+
+                <button>
+                    <div class="info">
+
+                        <div class="animal-icon">
+                            <img src="images/png/snakes.png" alt="">
+                            <p style="letter-spacing: -1px;">Snakes</p>
+                        </div>
+                        <img src="images/png/snake-back.png" alt="">
+                    </div>
+                </button>
+
+
+            </div>
+
+            <div class="colum-list">
+
+                <button id="camel-btn">
+                    <div class="info">
+
+                        <div class="animal-icon">
+                            <img src="images/png/camel.png" alt="">
+                            <p style="letter-spacing: -1px;">Camels</p>
+                        </div>
+                        <img src="images/png/camel-back.png" alt="">
+                    </div>
+                </button>
+
+
+                <button>
+                    <div class="info">
+
+                        <div class="animal-icon">
+                            <img src="images/png/gorillas.png" alt="">
+                            <p style="letter-spacing: -1.5px;">Gorillas</p>
+                        </div>
+                        <img src="images/png/gorilla-back.png" alt="">
+                    </div>
+                </button>
+
+
+                <button>
+                    <div class="info">
+
+                        <div class="animal-icon">
+                            <img src="images/png/hippo.png" alt="">
+                            <p>Hippo</p>
+                        </div>
+                        <img src="images/png/hippo-back.png" alt="">
+                    </div>
+                </button>
+
+
+                <button>
+                    <div class="info">
+
+                        <div class="animal-icon">
+                            <img src="images/png/reptiles.png" alt="">
+                            <p style="letter-spacing: -1.5px;">Reptiles</p>
+                        </div>
+                        <img src="images/png/reptile-back.png" alt="">
+                    </div>
+                </button>
+
+            </div>
+
+        </div>
+
+        <div class="watch-online">
+
+            <a href="https://zoolife.tv/torontozoo" target="_blank">
+                <div class="live-stream">
+                    <img src="images/png/live-streaming 2.png" alt="">
+                    <p>Watch Online</p>
+                </div>
+                <img src="images/png/live-stream-back.png" alt="">
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="modal-animals" id="modal-lions">
+        <div class="modal-win-lions">
+
+            <div class="male" id="male-photo"
+            ontouchstart="mhanleTouchStart(event)"
+            ontouchmove="mhanleTouchMove(event)"
+            ontouchend="mhandleTouchEnd(event)">
+
+                <div class="lion-card">
+                    <div class="lion-photo">
+                        <img src="images/png/lion-inf.png" alt="">
+                    </div>
+                    <div class="inf-swipe">
+                        <div class="lion-name-region">
+                            <h6>Male</h6>
+                            <h3>Mamal</h3>
+                            <h6>Region Africa</h6>
+                        </div>
+                        <div class="lion-swipe">
+                            <img src="images/png/swipe.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <h2>African lion</h2>
+                <p>
+                    The lion is powerfully built, with a broad head, thick, strong legs and a tail tipped with a tuft of
+                    black hair. The body is very muscular with less bone mass than any other animal of comparable size. Both
+                    sexes have large amber eyes, their eyes being the biggest of any meat-eating animal. Lion coloration in
+                    general varies from light buff to yellowish, reddish, or dark ochraceous brown. The underparts are
+                    generally lighter and the tail tuft is black. Lion cubs are born with brown rosettes (spots) on their
+                    body, rather like those of a leopard. Although these fade as lions reach adulthood, faint spots often
+                    may still be seen on the legs and underparts, particularly on females.
+                </p>
+                <p class="lion-size">
+                    Males: Length: 1.7 - 2.5 m Height: 123 cm Weight: 150-250 kg <br>
+                    Female: Length: 1.4 - 1.8 m Height: 107 cm Weight: 120-182 kg <br>
+                    Tail Length: 60-100 cm
+                </p>
+
+            </div>
+
+            <div class="female" id="fem-photo" 
+            ontouchstart="fhanleTouchStart(event)"
+            ontouchmove="fhandleTouchMove(event)"
+            ontouchend="fhandleTouchEnd(event)">
+                <div class="lion-card">
+                    <div class="lion-photo">
+                        <img src="images/png/lion-female-inf.png" alt="" class="female-photo">
+                    </div>
+                    <div class="inf-swipe">
+                        <div class="lion-name-region">
+                            <h6>Female</h6>
+                            <h3>Zela</h3>
+                            <h6>Region Africa</h6>
+                        </div>
+                        <div class="female-lion-swipe">
+                            <img src="images/png/swipe.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <h2>African lion</h2>
+                <p>
+                    The lion is powerfully built, with a broad head, thick, strong legs and a tail tipped with a tuft of
+                    black hair. The body is very muscular with less bone mass than any other animal of comparable size. Both
+                    sexes have large amber eyes, their eyes being the biggest of any meat-eating animal. Lion coloration in
+                    general varies from light buff to yellowish, reddish, or dark ochraceous brown. The underparts are
+                    generally lighter and the tail tuft is black. Lion cubs are born with brown rosettes (spots) on their
+                    body, rather like those of a leopard. Although these fade as lions reach adulthood, faint spots often
+                    may still be seen on the legs and underparts, particularly on females.
+                </p>
+                <p class="lion-size">
+                    Males: Length: 1.7 - 2.5 m Height: 123 cm Weight: 150-250 kg <br>
+                    Female: Length: 1.4 - 1.8 m Height: 107 cm Weight: 120-182 kg <br>
+                    Tail Length: 60-100 cm
+                </p>
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+    <div class="modal-animals" id="modal-camels">
+        <div class="modal-win-camels">
+
+            <div class="camel-card">
+
+                <div class="camel-photo">
+                    <img src="images/png/camel-inf.png" alt="">
+                </div>
+
+                <div class="inf-swipe">
+                    <div class="camel-name-region">
+                        <h6>Male</h6>
+                        <h3>Mamal</h3>
+                        <h6>Region Africa</h6>
+                    </div>
+
+                    <div class="camel-swipe">
+                        <img src="images/png/swipe.png" alt="">
+                    </div>
+                </div>
+
+            </div>
+
+            <h2>Central Asia</h2>
+
+            <p>
+                The lion is powerfully built, with a broad head, thick, strong legs and a tail tipped with a tuft of
+                black hair. The body is very muscular with less bone mass than any other animal of comparable size. Both
+                sexes have large amber eyes, their eyes being the biggest of any meat-eating animal. Lion coloration in
+                general varies from light buff to yellowish, reddish, or dark ochraceous brown. The underparts are
+                generally lighter and the tail tuft is black. Lion cubs are born with brown rosettes (spots) on their
+                body, rather like those of a leopard. Although these fade as lions reach adulthood, faint spots often
+                may still be seen on the legs and underparts, particularly on females.
+            </p>
+
+            <p class="lion-size">
+                Males: Length: 1.7 - 2.5 m Height: 123 cm Weight: 150-250 kg <br>
+                Female: Length: 1.4 - 1.8 m Height: 107 cm Weight: 120-182 kg <br>
+                Tail Length: 60-100 cm
+            </p>
+
+        </div>
+    </div>
+    
+
+    <script src="js/animals-modal.js"></script>
+    <footer id="menu"></footer>
+    <script src="js/importer.js"></script>
+</body>
+
+</html>
+
+<!--
+    HOW TO PUSH CHANGES
+
+    1. git add .
+    2. git commit -m "Обьяснение внесённых изменений"
+    3. git push
+
+    HOW TO GET CHANGES
+
+    1. git pull
+-->

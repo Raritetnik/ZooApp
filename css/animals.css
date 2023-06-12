@@ -1,0 +1,340 @@
+h1, h2, h3, h4, h5 {font-weight: bold;}
+
+button {
+    background-color: transparent;
+}
+
+p {font-weight: bold;}
+
+.animals img {
+    width: 100%;
+}
+
+/* Animal list */
+
+.animals-list {
+    display: flex;
+    margin-top: 1.5rem;
+}
+
+.animal-icon {
+    position: absolute;
+    width: 18%;
+
+    display: flex;
+    align-items: center;
+
+    margin-left: .5rem;
+}
+
+.animal-icon img {
+    margin-left: -2.5rem;
+    
+}
+
+.animal-icon p {
+    margin-left: .5rem;
+    color: white;
+    font-weight: bold;
+    font-size: 130%;
+    
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+
+    justify-content: center;
+}
+
+.info>img {
+    width: 80%;
+}
+
+/* Watch Online */
+
+.watch-online>a {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.watch-online>a>img {
+    width: 55%;
+}
+
+.live-stream {
+    position: absolute;
+    
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.live-stream img {
+    width: 8%;
+}
+
+.live-stream p {
+    margin-left: .5rem;
+    font-weight: bold;
+    font-size: 120%;
+    color: black;
+}
+
+/* Modal Animals Window */
+
+.modal-animals {
+    z-index: 200;
+
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, .3);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    visibility: hidden;
+    opacity: 0;
+
+    transition: opacity .4s, visibility .4s ;
+}
+
+.male {
+    z-index: 2;
+
+    padding: 1.5rem 2rem 1.5rem 2rem;
+
+    max-width: 350px;
+
+    border: solid;
+    border-color: #DFAA51;
+
+    border-radius: 32px;
+    background-color: #DEDEDE;
+}
+
+.modal-animals.open {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* Lion's card */
+/* Male */
+
+.lion-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: .5rem;
+}
+
+.inf-swipe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0 2rem 0 1rem;
+}
+
+.lion-name-region {
+    width: 160%;
+    height: 20%;
+
+    padding: .2rem 0 .2rem 0;
+    margin-bottom: .4rem;
+
+    text-align: center;
+    color: white;
+
+    background-color: #DFAA51;
+    border-radius: 30px;
+}
+
+.lion-swipe {
+    width: 40px;
+    height: 40px;
+
+    background-color: #DFAA51;
+    border-radius: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lion-swipe>img {
+    width: 70%;
+}
+
+.male>h2 {
+    width: 100%;  
+}
+
+.male>p {
+    margin: .5rem 0 0 0;
+    font-size: 12px;
+    
+    line-height: 110%;
+}
+
+.lion-size {
+    text-align: center;  
+}
+
+/* Female */
+
+.female {
+    z-index: 0;
+
+    position: absolute;
+
+    display: none;
+
+    top: 21%;
+    left: 11%;
+
+    padding: 1.5rem 2rem 1.5rem 2rem;
+
+    max-width: 350px;
+
+    border: solid;
+    border-color: #DFAA51;
+
+    border-radius: 32px;
+    background-color: #DEDEDE;
+}
+
+.lion-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: .5rem;
+}
+
+.inf-swipe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0 2rem 0 1rem;
+}
+
+.lion-name-region {
+    width: 160%;
+    height: 20%;
+
+    padding: .2rem 0 .2rem 0;
+    margin-bottom: .4rem;
+
+    text-align: center;
+    color: white;
+
+    background-color: #DFAA51;
+    border-radius: 30px;
+}
+
+.female-lion-swipe {
+    width: 40px;
+    height: 40px;
+
+    background-color: #DFAA51;
+    border-radius: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.female-lion-swipe>img {
+    width: 70%;
+}
+
+.female>h2 {
+    width: 100%;  
+}
+
+.female>p {
+    margin: .5rem 0 0 0;
+    font-size: 12px;
+    
+    line-height: 110%;
+}
+
+/* Camel's card */
+
+.modal-win-camels {
+    z-index: 2;
+
+    padding: 1.5rem 2rem 1.5rem 2rem;
+
+    max-width: 350px;
+
+    border: solid;
+    border-color: #CC5454;
+
+    border-radius: 32px;
+    background-color: #DEDEDE;
+}
+
+
+.camel-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: .5rem;
+}
+
+.camel-photo>img {
+    width: 100%;
+}
+
+.camel-name-region {
+    width: 160%;
+    height: 20%;
+
+    padding: .2rem 0 .2rem 0;
+    margin-bottom: .4rem;
+
+    text-align: center;
+    color: white;
+
+    background-color: #CC5454;
+    border-radius: 30px;
+}
+
+.camel-swipe {
+    width: 40px;
+    height: 40px;
+
+    background-color: #CC5454;
+    border-radius: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.camel-swipe>img {
+    width: 70%;
+}
+
+.modal-win-camels>h2 {
+    width: 100%;  
+}
+
+.modal-win-camels>p {
+    margin: .5rem 0 0 0;
+    font-size: 12px;
+    
+    line-height: 110%;
+}

@@ -74,6 +74,7 @@ h1,h2, h3, h4, h5, h6{font-style: inherit; font-weight: 600;}
 
 .special {
     position: relative;
+
     bottom: 2.4rem;
 }
 
